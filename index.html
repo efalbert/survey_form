@@ -3,15 +3,15 @@
 
 </head>
 <body>
-  <h1 id="title">Preffered Mobile Operating System</h1>
-  <p id="description"> This is a Survery to find out person's preferred mobile operating system </p>
+    <h1 id="title">Preffered Mobile Operating System</h1>
+    <p id="description"> This is a Survery to find out person's preferred mobile operating system </p>
 <form id="survey-form">
-  <label id="name-label"> Name: </label>
-  <input type="text" name="name" id="name" required placeholder="Full Name"></input><br>
-  <label id="email-label"> Email: </label>
-  <input type="email" name="email" id="email" required placeholder="@email.com" ></input><br>
-  <label id="number-label"> Number: </label>
-  <input type="number" name="number" id="number" min="0" max="5" required placeholder="123"></input><br>
+    <label id="name-label"> Name: </label>
+    <input type="text" name="name" id="name" required placeholder="Full Name"></input><br>
+    <label id="email-label"> Email: </label>
+    <input type="email" name="email" id="email" required placeholder="@email.com" ></input><br>
+    <label id="number-label"> Number: </label>
+    <input type="number" name="number" id="number" min="0" max="5" required placeholder="123"></input><br>
 
   <select id="dropdown" name="Operating Systems">
     <option value="android">Android</option>
@@ -21,6 +21,11 @@
     <option value="other">Other</option>
   </select>
 
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
 
   </form>
 
