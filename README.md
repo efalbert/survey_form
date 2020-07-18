@@ -7,4 +7,4 @@ https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
 
 you can find this project at this url:
 
-[survey forom](https://efalbert.github.io/survey_form/)
+[survey from](https://efalbert.github.io/survey_form/)
